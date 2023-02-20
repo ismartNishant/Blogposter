@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+.name {
+  font-size: 1.5rem;
+}
+
+.todo {
+  font-size: 1rem;
+}
+
+.my-card {
+  background: rgba(255, 255, 255, 0.145) !important;
+  width: 18rem;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.my-card:hover {
+  transform: scale(.95);
+}
+
+.form-label {
+  font-size: 20px;
+}
+
+.modal {
+  background: #09000fcd;
+
+}
+
+.modal-content {
+  box-shadow: 0px 0px 20px#ffffff3c !important;
+  background: linear-gradient(45deg, #7612e9, #ed0484);
+}
+
+.input {
+  background: none !important;
+  color: #fff !important;
+}
+
+.bx-window-close {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #000;
+}
+
+.bx-window-close:hover {
+  font-size: 2.2rem;
+  color: #fff;
+
+}
+
+.post-btn {
+  background: #000 !important;
+  color: #fff !important;
+  transition: 1s all;
+}
+
+.post-btn:hover {
+  background: #fff !important;
+  color: #000 !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #fff !important;
+}
+
+.post-header {
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+
+.post-heading {
+  font-size: 3.5rem;
+}
+
+.add-btn {
+  font-size: 2rem !important;
+  padding: 8px 15px !important;
+  transition: .5s all;
+  background: linear-gradient(45deg, #7612e9, #ed0484);
+}
+.add-btn:hover{
+  background:linear-gradient(45deg, #04f4a0,#05d2f6);
+}
+.add-btn:active{
+  transform: scale(.8);
+}
+.submit-btn{
+  background:linear-gradient(45deg, #04f4a0,#05d2f6);
+  color: #000 !important;
+  transition: .2s all;
+  font-family:'Nunito', sans-serif ;
+}
+.submit-btn:hover{
+  transform: scale(.8);
+}
+@media (max-width: 900px) {
+  .blog-form {
+    width: 50%;
+  }
+
+  .add-btn {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .blog-form {
+    width: 100%;
+  }
+
+  .post-header {
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .my-card {
+    width: 14rem;
+
+  }
+
+  .add-btn {
+    font-size: 1rem !important;
+  }
+
+  .post-heading {
+    font-size: 2rem;
+  }
+
+  .name {
+    padding: 0.4rem .6rem !important;
+  }
+  
+}
+
+@media (max-width: 450px) {
+  .App {
+    padding: 0rem 1rem;
+  }
+  .post-header{
+    padding: 1rem 0 !important;
+  }
+  .post-heading {
+    font-size: 1.5rem;
+  }
+
+  .add-btn {
+    font-size: 1.2rem !important;
+    padding: 4px 10px !important;
+  }
+
+  .my-card {
+    width: 18rem;
+   
+
+  }
+
+}

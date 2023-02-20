@@ -1,0 +1,18 @@
+
+
+.App{
+  color: #fff;
+  padding: 0rem 10rem;
+}
+
+@media (max-width: 1200px) {
+  .App{
+    padding: 0rem 5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .App{
+    padding: 0rem 2rem;
+  }
+}
