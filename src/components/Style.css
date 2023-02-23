@@ -15,6 +15,7 @@ font-family: 'Roboto', sans-serif; */
   width: 18rem;
   transition: .2s;
   cursor: pointer;
+  animation: animate-in 1s ease-out forwards;
 }
 
 .my-card:hover {
@@ -26,7 +27,7 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .modal {
-  background: #09000fcd;
+  background: #09000f32;
 
 }
 
@@ -96,8 +97,22 @@ textarea::placeholder {
   font-family:'Nunito', sans-serif ;
 }
 .submit-btn:hover{
-  transform: scale(.8);
+  background: #fff !important;
+  color: #000 !important;
 }
+
+
+@keyframes animate-in {
+  from {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @media (max-width: 900px) {
   .blog-form {
     width: 50%;
